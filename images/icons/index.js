@@ -18,5 +18,6 @@ import Vec2 from './vec2.svg'
 import Play from './play.svg'
 import User from './user.svg'
 import Comment from './comment.svg'
+import Close from './close.svg'
 
-export {Menu, Facebook, Instagram, Tiktok, Youtube, Twitter, Screen, Message, Paper, MessageCircle, Cart, MenuMobile, Sv1, Sv2, Sv3, Sv4, Vec2, Play, User, Comment}
+export {Menu, Facebook, Instagram, Tiktok, Youtube, Twitter, Screen, Message, Paper, MessageCircle, Cart, MenuMobile, Sv1, Sv2, Sv3, Sv4, Vec2, Play, User, Comment, Close}

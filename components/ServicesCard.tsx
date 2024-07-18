@@ -13,7 +13,7 @@ const ServicesCard = ({service, getBg}:{service:any, getBg:any}) => {
         <p className="w-3/4 max-xl:max-w-xl text-slate-300 text-md max-xl:text-xl text-center font-Josefin leading-8">
           {service.des}
         </p>
-        <Button label={"See More"} bg={false} border={true}/>
+        <Button label={"See More"} bg={false} border={true} subscribe={false}/>
       </Link>
     </div>
   );

@@ -16,7 +16,7 @@ const OurTeam = () => {
               vel consequat dui ultrices. Vestibulum ante ipsum primis in
               faucibus orci luctus.
             </p>
-            <Button label={"View All"} bg={false} border={true}/>
+            <Button label={"View All"} bg={false} border={true} subscribe={false}/>
           </div>
         </div>
         <div className="flex justify-center flex-wrap flex-1 gap-x-5 gap-y-10">

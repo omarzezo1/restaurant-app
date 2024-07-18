@@ -15,8 +15,8 @@ const SubSection = () => {
       </div>
       <div className="xl:w-11/12 w-full flex justify-center flex-wrap gap-8 mx-auto p-5 lg:pb-14 border-b border-dashed border-borderColor">
       <form className='lg:w-3/4 w-full flex justify-center'>
-        <input type='email' name="email" placeholder='Enter your email address' className='px-7 py-3.5 subscribe w-3/4 font-Josefin'/>
-        <Button label={"subscribe Now +"} bg={true} border={false} subscribe={true}/>
+        <input type='email' name="email" placeholder='Enter your email address' className='text-slate-100 px-7 py-3.5 subscribe w-3/4 font-Josefin'/>
+        <Button label={"Subscribe Now +"} bg={true} border={false} subscribe={true}/>
       </form>
       </div>
     </div>

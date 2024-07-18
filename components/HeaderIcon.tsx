@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 
-const HeaderIcon = ({icon}) => {
+const HeaderIcon = ({icon}:{icon:any}) => {
   return (
     <div key={icon.name} className="size-12">
         <a href={icon.link} className="w-full h-full flex justify-center items-center bg-[rgba(0,0,0,.3)] rounded-full hover:bg-red  transition duration-500">
